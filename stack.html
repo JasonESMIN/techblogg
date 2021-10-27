@@ -1,0 +1,43 @@
+body{
+/*  by default, the body tag has a 
+  margin that creates a small white 
+  space around the content of my page  */
+  margin: 0;
+}
+header, main, footer{
+  background-color: gray;
+  min-height:25px;
+}
+header{
+  background-color: red;
+  height: 100px;
+}
+main{
+  background-color: blue;
+  height:50px;
+}
+footer{
+  background-color: green;
+  height:200px;
+}
+div{
+  display: block;
+  margin: auto;
+/*   margin: top;
+  margin:right;
+  margin:left;
+  margin:bottom; */
+  background-color: gray;
+/*   padding:25px; */
+  max-width:400px;
+  height:100vh;
+  
+/*  CSS GRID  */
+/*  Sticky Footer Example
+    Forces the footer to the bottom of the page
+*/
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+/* Fr: stands for, fractional unit */
