@@ -1,116 +1,79 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>HTML</title>
+    <title>CSS</title>
+    <link href="style.css" rel="stylesheet"/>
   </head>
   <body>
     <header>
-      <h1>Tech Blog</h1>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="html.html">HTML</a></li>
-        
+      
+      <h1><pre> Tech Blog</h1></pre>
+      
+      <div class="site-header">
+      <nav class="primary-nav">
+        <ul class="primary-nav__list">
+          <li><a href="index.html" class="primary-nav__link">Home</a></li>
+          <li><a href="html.html" class="primary-nav__link">HTML</a></li>
+          <li><a href="css.html" class="primary-nav__link">CSS</a></li>
+          <li><a href="csslayouts.html" class="primary-nav__link">CSS Layouts</a></li>
+          <li><a href="js.html" class="primary-nav__link">JavaScript</a></li>
         </ul>
       </nav>
     </header>
     <article>
-      
       <h1>CSS</h1>
       
-      <h2>Patterns</h2>
+        <h2>Patterns</h2>
       
-      <h3>CSS Selection</h3>
-      
-      <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="bGrraxr" data-user="jasonesmin" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/jasonesmin/pen/bGrraxr">
+            <h3>CSS Selectors</h3>
+            <!--- Codepen Snippet --->
+            <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="WNEjRpo" data-user="jasonesmin" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/jasonesmin/pen/WNEjRpo">
   Untitled</a> by JasonESMIN (<a href="https://codepen.io/jasonesmin">@jasonesmin</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-      
-      <p>Selectors are the code that defines the elements that we are changing with CSS.</p>
-      
-      <h2>Writing CSS</p>
-      
-      <h3>Inline</h3>
-      
-      <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="MWvvrzq" data-user="jasonesmin" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/jasonesmin/pen/MWvvrzq">
+            <p> Selectors are the code that defines the elements, classnames, IDs, Attributes, or combinations that we are changing with CSS.</p>
+          
+           <h2>Properties/Values<h2>
+                 
+                 <h3>Inline CSS</h3>
+                 <!--- Codepen Snippet --->
+                 <p class="codepen" data-height="300" data-default-tab="js,result" data-slug-hash="LYjyxWq" data-user="jasonesmin" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
+  <span>See the Pen <a href="https://codepen.io/jasonesmin/pen/LYjyxWq">
   Untitled</a> by JasonESMIN (<a href="https://codepen.io/jasonesmin">@jasonesmin</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
 <script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+                 <p> Inline CSS contains the CSS property in the body section attached with an element known as inline CSS. This kind of style is specified within an HTML tag using the style attribute.</p>
+                 
+                 <h3>Internal or Embedded CSS</h3>
+                 <!--- Codepen Snippet --->
+                 <<p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="NWvBNmK" data-user="captain-absol" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"><span>See the Pen <a href="https://codepen.io/captain-absol/pen/NWvBNmK">
+                 Internal or Embedded CSS</a> by Captain-Absol (<a href="https://codepen.io/captain-absol">@captain-absol</a>) on <a href="https://codepen.io">CodePen</a>.</span></p><script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+      
+                 <p> This can be used when a single HTML document must be styled uniquely. The CSS rule set should be within the HTML file in the head section i.e the CSS is embedded within the HTML file.</p>
+                 
+                 <h3>External CSS</h3>
+                 <!--- Codepen Snippet --->
+                 <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="WNEpEML" data-user="captain-absol" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"><span>See the Pen <a href="https://codepen.io/captain-absol/pen/WNEpEML">
+                 Untitled</a> by Captain-Absol (<a href="https://codepen.io/captain-absol">@captain-absol</a>)on <a href="https://codepen.io">CodePen</a>.</span></p><script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+      
+                 <p> External CSS contains a separate CSS file which contains only style property with the help of tag attributes (For example class, id, heading, … etc). CSS property written in a separate file with .css extension and should be linked to the HTML document using <strong>link</strong> tag. This means that for each element, style can be set only once and that will be applied across web pages.</p>
+                 
+            <h3>Class Selectors(BEM)</h3>
+            <!--- Codepen Snippet --->
+            <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="KKvBzjV" data-user="captain-absol" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;"><span>See the Pen <a href="https://codepen.io/captain-absol/pen/KKvBzjV">
+            Class Selectors (BEM)</a> by Captain-Absol (<a href="https://codepen.io/captain-absol">@captain-absol</a>)on <a href="https://codepen.io">CodePen</a>.</span></p><script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
+      
+            <p> A block is a top-level abstraction of a new component like a button/.btn, this can be thought of as a parent.
 
-      <p>Internal</p>
-      
-      <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="MWvvrZP" data-user="jasonesmin" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/jasonesmin/pen/MWvvrZP">
-  Untitled</a> by JasonESMIN (<a href="https://codepen.io/jasonesmin">@jasonesmin</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-      
-      <p>External/Global</p>
-      
-      <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="gOxxoqm" data-user="jasonesmin" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/jasonesmin/pen/gOxxoqm">
-  Untitled</a> by JasonESMIN (<a href="https://codepen.io/jasonesmin">@jasonesmin</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-      
-      <p>This <link> element tells the browser that we have a stylesheet, using the rel attribute, and the location of that stylesheet as the value of the href attribute. You can test that the CSS works by adding a rule to styles.css. Using your code editor add the following to your CSS file:
-</p>
-      
-      <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="JjyyMzP" data-user="jasonesmin" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/jasonesmin/pen/JjyyMzP">
-  Untitled</a> by JasonESMIN (<a href="https://codepen.io/jasonesmin">@jasonesmin</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-      
-      
-      <p>You use this when you want to change the color of a certain heading or paragraph etc.</p>
-      
-      <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="OJjjzqg" data-user="jasonesmin" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/jasonesmin/pen/OJjjzqg">
-  Untitled</a> by JasonESMIN (<a href="https://codepen.io/jasonesmin">@jasonesmin</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-      
-      
-      <p>You can target multiple selectors at once, by separating the selectors with a comma. If I want all paragraphs and all list items to be green my rule looks like this</p>
-     
-      <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="MWvvrRP" data-user="jasonesmin" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/jasonesmin/pen/MWvvrRP">
-  Untitled</a> by JasonESMIN (<a href="https://codepen.io/jasonesmin">@jasonesmin</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-      
-      <p>you will often want something other than the choice the browser has made. This can be done by choosing the HTML element that you want to change, and using a CSS rule to change the way it looks. A good example is our <ul>, an unordered list. It has list bullets, and if I decide I don't want those bullets I can remove them like so:
-</p>
-      
-      <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="PoKKErj" data-user="jasonesmin" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/jasonesmin/pen/PoKKErj">
-  Untitled</a> by JasonESMIN (<a href="https://codepen.io/jasonesmin">@jasonesmin</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-      
-      <h3>Simple Stack layout</h3>
-      
-     <p class="codepen" data-height="300" data-default-tab="html,result" data-slug-hash="oNeeEbx" data-user="jasonesmin" style="height: 300px; box-sizing: border-box; display: flex; align-items: center; justify-content: center; border: 2px solid; margin: 1em 0; padding: 1em;">
-  <span>See the Pen <a href="https://codepen.io/jasonesmin/pen/oNeeEbx">
-  Untitled</a> by JasonESMIN (<a href="https://codepen.io/jasonesmin">@jasonesmin</a>)
-  on <a href="https://codepen.io">CodePen</a>.</span>
-</p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
-           </article>
+                Elements can be thought of as child items, they can be placed inside blocks and are denoted by two underscores following the name like .btn__price.
+
+                Modifiers can manipulate the block to give a theme or style to a specific component without inflicting changes on a completely unrelated module, they can be denoted with two dashes following the name like .btn--orange.</p>
+    </article>
     <footer>
-    <p>&copy; 2021 Jason Martinez</p>
+    <p>&copy; 2021 Mohammed Abdulmahdi</p>
     </footer>
   </body>
 </html>
