@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
 :root {
@@ -16,7 +16,7 @@ h1, pre {
     clear: none;
     color: #2F4F4F;
     font-size:80px;
-    font-family: 'Bebas Neue';
+    font-family: 'Nanum Gothic';
 }
 
 body {
@@ -29,7 +29,7 @@ body {
     padding: 10px;
     font-size: 45px;
     margin: 5px;
-    font-family: 'Bebas Neue';
+    font-family: 'Nanum Gothic';
 }
 
 .primary-nav__list {
