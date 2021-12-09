@@ -24,8 +24,8 @@ body {
 }
 
 .primary-nav {
-    background-color: var(--dkblue);
-    color: babyblue;
+    background-color: var(--white);
+    color: navajowhite;
     padding: 10px;
     font-size: 45px;
     margin: 5px;
