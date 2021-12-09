@@ -2,9 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
 
 :root {
-    --dkblue: #1D3557;
-    --red: #E63946;
-    -cream: #FFFDD0;
+    --grey: #2F4F4F;
+    --white: #FFDEAD;
+    --purple: #7B68EE;
 }
 
 ul {
@@ -14,7 +14,7 @@ ul {
 h1, pre {
     float:left;
     clear: none;
-    color: #FFE800;
+    color: #2F4F4F;
     font-size:80px;
     font-family: 'Bebas Neue';
 }
